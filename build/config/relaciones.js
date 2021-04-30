@@ -11,7 +11,7 @@ var _estante = _interopRequireDefault(require("../models/estante"));
 
 var _producto = _interopRequireDefault(require("../models/producto"));
 
-var _productoEstante = _interopRequireDefault(require("../models/productoEstante"));
+var _productoestante = _interopRequireDefault(require("../models/productoestante"));
 
 var _rol = _interopRequireDefault(require("../models/rol"));
 
@@ -27,7 +27,7 @@ const Estante = (0, _estante.default)();
 exports.Estante = Estante;
 const Producto = (0, _producto.default)();
 exports.Producto = Producto;
-const ProductoEstante = (0, _productoEstante.default)();
+const ProductoEstante = (0, _productoestante.default)();
 exports.ProductoEstante = ProductoEstante;
 const Rol = (0, _rol.default)();
 exports.Rol = Rol;

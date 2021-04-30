@@ -1,7 +1,7 @@
 import categoria_model from "../models/categoria";
 import estante_model from "../models/estante";
 import producto_model from "../models/producto";
-import producto_estante_model from "../models/productoEstante";
+import producto_estante_model from "../models/productoestante";
 import rol_model from "../models/rol";
 import usuario_model from "../models/usuario";
 // creamos las variables con la referencia a sus modelos correspondientes
