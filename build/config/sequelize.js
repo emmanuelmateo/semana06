@@ -17,7 +17,7 @@ const conexion = process.env.JAWSDB_URL ? new _sequelize.Sequelize(process.env.J
   }
 }) : new _sequelize.Sequelize("almacen", // database name
 "root", // username
-"root", // password
+"Alpha5000", // password
 {
   dialect: "mysql",
   // tambien podemos usar dialectos para pgadmin, sqlserver, sqlite3, mariadb, mysql

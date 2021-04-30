@@ -12,7 +12,7 @@ export const conexion = process.env.JAWSDB_URL
     : new Sequelize(
         "almacen", // database name
         "root", // username
-        "root", // password
+        "Alpha5000", // password
         {
             dialect: "mysql", // tambien podemos usar dialectos para pgadmin, sqlserver, sqlite3, mariadb, mysql
             // /* one of 'mysql' | 'mariadb' | 'postgres' | 'mssql' */ para sqlite se usa connection URI
